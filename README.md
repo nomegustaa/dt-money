@@ -22,7 +22,7 @@ Para iniciar o **dt MONEY**, siga os passos abaixo:
 
 2. **Clone o Repositório:** Clone este repositório para sua máquina local utilizando o seguinte comando:
 
-git clone https://github.com/seu-usuario/dt-money.git
+git clone https://github.com/nomegustaa/dt-money.git
 
 
 3. **Instale as Dependências:** Navegue até o diretório do projeto e instale as dependências necessárias usando npm (Node Package Manager) ou yarn:
@@ -32,7 +32,7 @@ npm install ou yarn
 
 4. **Inicie o JSON Server:** Execute o JSON Server para simular uma API REST com os dados das transações. Certifique-se de iniciar o servidor na porta padrão (3000):
 
-json-server --watch db.json --port 3000
+json-server --watch db.json --port 3000 ou npm run dev:server ou yarn dev:server
 
 
 5. **Inicie o Projeto:** Com o JSON Server em execução, inicie o projeto dt MONEY:
